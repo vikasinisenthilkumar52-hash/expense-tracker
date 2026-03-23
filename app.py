@@ -11,18 +11,19 @@ from yaml.loader import SafeLoader
 st.set_page_config(page_title="Smart Expense Tracker", page_icon="💸")
 
 # ── User Config ──
+# ── User Config ──
 config = {
     'credentials': {
         'usernames': {
             'admin': {
                 'email': 'admin@example.com',
                 'name': 'Admin User',
-                'password': stauth.Hasher(['admin123']).generate()[0]
+                'password': '$2b$12$OvADU3PNT0roMBBxfJBJx.8oQ3pBRBDxGiAhBmFnxMZJHuSBm6QVW'
             },
             'john': {
                 'email': 'john@example.com',
                 'name': 'John',
-                'password': stauth.Hasher(['john123']).generate()[0]
+                'password': '$2b$12$sHHsXxBMpHmzYCmgDJFxQO1.5fZcMqFjuZvJcGgGwJO8DxGkZCZOi'
             }
         }
     },
@@ -31,9 +32,7 @@ config = {
         'key': 'expense_tracker_key',
         'name': 'expense_tracker_cookie'
     }
-}
-
-# ── Authenticator ──
+}# ── Authenticator ──
 authenticator = stauth.Authenticate(
     config['credentials'],
     config['cookie']['name'],
