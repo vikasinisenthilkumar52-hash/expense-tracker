@@ -18,12 +18,12 @@ config = {
             'admin': {
                 'email': 'admin@example.com',
                 'name': 'Admin User',
-                'password': '$2b$12$OvADU3PNT0roMBBxfJBJx.8oQ3pBRBDxGiAhBmFnxMZJHuSBm6QVW'
+                'password': '$2b$12$qzKhi5uBfrVVwiuoZj4wKODUWedrm2KWsi6PUU7OzQGf94gNj6Y3O'
             },
             'john': {
                 'email': 'john@example.com',
                 'name': 'John',
-                'password': '$2b$12$sHHsXxBMpHmzYCmgDJFxQO1.5fZcMqFjuZvJcGgGwJO8DxGkZCZOi'
+                'password': '$2b$12$Jb7qVT2Zz.wxkm8f62pmf.6E34f2K164T5PZKcPoov17.nYlBxnuq'
             }
         }
     },
