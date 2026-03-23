@@ -3,18 +3,6 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
-import streamlit_authenticator as stauth
-import yaml
-from yaml.loader import SafeLoader
-
-# ── Page Config ──
-st.set_page_config(page_title="Smart Expense Tracker", page_icon="💸")
-
-import streamlit as st
-import pandas as pd
-import os
-from datetime import datetime, timedelta
-import matplotlib.pyplot as plt
 import hashlib
 
 # ── User Database (username: hashed password) ──
